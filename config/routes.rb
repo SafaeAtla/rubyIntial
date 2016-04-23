@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
+  resources :livres
   resources :auteurs
-    
-root 'application#bonjour'
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.
